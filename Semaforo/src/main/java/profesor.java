@@ -17,7 +17,7 @@ public class profesor extends persona {
 	// Hace la pregunta al estudiante sobre el color
 	public String preguntacolor() {
 
-		estudiante alumno = new estudiante(20,"Noa",1);
+		estudiante alumno = new estudiante(23,"Pablo",1);
 		String colorRec = alumno.preguntacolor();
 		return colorRec;
 	}
